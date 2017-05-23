@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706926AF1ED36FE600C4912F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706926AE1ED36FE600C4912F /* ResultViewController.swift */; };
 		70C21A5C1ED2DC930081F82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C21A5B1ED2DC930081F82D /* AppDelegate.swift */; };
 		70C21A5E1ED2DC930081F82D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C21A5D1ED2DC930081F82D /* ViewController.swift */; };
 		70C21A611ED2DC930081F82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C21A5F1ED2DC930081F82D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		706926AE1ED36FE600C4912F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		70C21A581ED2DC930081F82D /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C21A5B1ED2DC930081F82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C21A5D1ED2DC930081F82D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		70C21A4F1ED2DC930081F82D = {
 			isa = PBXGroup;
 			children = (
+				706926AE1ED36FE600C4912F /* ResultViewController.swift */,
 				70C21A5A1ED2DC930081F82D /* SecondKadaiApp */,
 				70C21A6F1ED2DC940081F82D /* SecondKadaiAppTests */,
 				70C21A7A1ED2DC940081F82D /* SecondKadaiAppUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				70C21A5E1ED2DC930081F82D /* ViewController.swift in Sources */,
 				70C21A5C1ED2DC930081F82D /* AppDelegate.swift in Sources */,
+				706926AF1ED36FE600C4912F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				70C21A821ED2DC940081F82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70C21A831ED2DC940081F82D /* Build configuration list for PBXNativeTarget "SecondKadaiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				70C21A851ED2DC940081F82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70C21A861ED2DC940081F82D /* Build configuration list for PBXNativeTarget "SecondKadaiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				70C21A881ED2DC940081F82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
